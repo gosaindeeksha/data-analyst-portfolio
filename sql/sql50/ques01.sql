@@ -1,6 +1,6 @@
 -- LeetCode SQL50
 -- Problem: Low Fats and Recyclable Products
--- Approach: Using select and where
+-- Approach/Concept: select,where,and
 SELECT product_id
 FROM Products
-WHERE low_fats = 'Y' AND recyclable = 'Y'
+WHERE low_fats = 'Y' AND recyclable = 'Y';
