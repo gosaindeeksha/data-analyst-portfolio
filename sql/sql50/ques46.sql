@@ -1,0 +1,8 @@
+-- LeetCode SQL50
+-- Problem: Delete Duplicate Emails
+-- Approach/Concept: delete, join
+DELETE p1
+FROM Person p1
+JOIN Person p2
+on p1.email = p2.email
+WHERE p1.id>p2.id
